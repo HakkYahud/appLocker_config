@@ -1,0 +1,11 @@
+Action	User	Name	Condition	Exceptions
+Allow	Everyone	(Default Rule) All digitally signed Windows Installer files	Publisher	
+Allow	Everyone	(Default Rule) All Windows Installer files in %systemdrive%\Windows\Installer	Path	
+Allow	BUILTIN\Administrators	(Default Rule) All Windows Installer files	Path	
+Allow	Everyone	C:: TEHTRIS EPP AGENT signed by O=TEHTRI-SECURITY S.A.S, L=PARIS, S=ILE-DE-FRANCE, C=FR	Publisher	
+Allow	Everyone	C:: MICROSOFT VISUAL C++ 2022 X86 MINIMUM RUNTIME - 14.32.31332 signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US	Publisher	
+Allow	Everyone	C:: MICROSOFT VISUAL C++ 2022 X86 ADDITIONAL RUNTIME - 14.32.31332 signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US	Publisher	
+Allow	Everyone	C:: MICROSOFT VISUAL C++ 2022 X64 MINIMUM RUNTIME - 14.32.31332 signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US	Publisher	
+Allow	Everyone	C:: MICROSOFT VISUAL C++ 2022 X64 ADDITIONAL RUNTIME - 14.32.31332 signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US	Publisher	
+Allow	Everyone	C:: VMWARE TOOLS signed by O=VMWARE INC., L=PALO ALTO, S=CALIFORNIA, C=US	Publisher	
+Allow	Everyone	C:: TEHTRIS EDR signed by O=TEHTRI-SECURITY S.A.S, L=PARIS, S=ILE-DE-FRANCE, C=FR	Publisher	
