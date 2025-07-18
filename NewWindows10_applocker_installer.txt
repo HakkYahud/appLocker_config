@@ -1,0 +1,9 @@
+Action	Utilisateur	Nom	Condition	Exceptions
+Autoriser	Tout le monde	(Règle par défaut) Tous les fichiers Windows Installer signés numériquement	Éditeur	
+Autoriser	Tout le monde	(Règle par défaut) Tous les fichiers Windows Installer se trouvant dans le dossier %systemdrive%\Windows\Installer	Chemin d’accès	
+Autoriser	BUILTIN\Administrateurs	(Règle par défaut) Tous les fichiers Windows Installer	Chemin d’accès	
+Autoriser	Tout le monde	C:: MICROSOFT VISUAL C++ 2022 X86 MINIMUM RUNTIME - 14.36.32532 signé par O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US	Éditeur	
+Autoriser	Tout le monde	C:: MICROSOFT VISUAL C++ 2022 X86 ADDITIONAL RUNTIME - 14.36.32532 signé par O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US	Éditeur	
+Autoriser	Tout le monde	C:: MICROSOFT VISUAL C++ 2022 X64 MINIMUM RUNTIME - 14.36.32532 signé par O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US	Éditeur	
+Autoriser	Tout le monde	C:: MICROSOFT VISUAL C++ 2022 X64 ADDITIONAL RUNTIME - 14.36.32532 signé par O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US	Éditeur	
+Autoriser	Tout le monde	C:: VMWARE TOOLS signé par O=VMWARE, INC., L=PALO ALTO, S=CALIFORNIA, C=US	Éditeur	
